@@ -30,3 +30,8 @@ transition: 200ms linear;
         height: 750px;
     }
 }
+@media only screen and (max-width:414px){
+    #back_to_top{
+        font-size: smaller;
+    }
+}
