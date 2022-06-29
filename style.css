@@ -1,0 +1,32 @@
+#banner{
+    background-image: url(images/banner/photo-1622955658214-d05c1c6fcf84.avif);
+    background-repeat: no-repeat;
+    background-size:  100% 500px;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li a{
+    margin: 0px 10px;
+}
+li a:hover{
+border-top: 1px solid orange;
+border-bottom: 1px solid orange;
+border-radius: 6px;
+background-color: rgba(0, 0, 0, 0.055);
+transition: 200ms linear;
+}
+
+.active{
+    border-bottom: 1px solid orange;
+}
+
+
+@media only screen and (max-width:1280px){
+    #form{
+        height: 750px;
+    }
+}
